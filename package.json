@@ -6,7 +6,7 @@
   "author": "No5Alive",
   "main": "index.js",
   "type": "module",
-"scripts": {
+  "scripts": {
   "start": "node index.js",
   "test": "echo \"Error: no test specified\" && exit 1"
 }
