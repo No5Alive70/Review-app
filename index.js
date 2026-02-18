@@ -12,7 +12,7 @@ const uri = `mongodb+srv://${mongo_username}:${mongo_password}@cluster0.tysuv1g.
 
 const client = new MongoClient(uri);
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 try {
     await client.connect();
